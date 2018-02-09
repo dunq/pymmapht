@@ -5,8 +5,8 @@
 * Limititaions: READ-ONLY on the fly. Modifications can only be made off-line, by exact one process.
 
 ## When you want to update the dictionary:
-*  generate new dictionary file offline;
-*  copy the new file online, which has a different name with the old file;
-*  modify configuration with the direction to the new file;
-*  restart servers or processes one by one, double memory usage is needed;
-*  remove the old file after restarting.
+1. Generate new dictionary file offline.
+2. Copy the new file online, which has a different name from the old file.
+3. Modify configuration to use the new file.
+4. Restart servers or processes one by one, where double memory usage is needed.
+5. Remove the old file after the restarting.
